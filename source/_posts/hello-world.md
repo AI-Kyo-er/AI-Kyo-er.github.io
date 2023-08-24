@@ -1,38 +1,27 @@
 ---
 title: Hello World
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+## Hello world —— 本站的第一篇Blog
+### Blog的緣起
+Blog，構詞法上，由代表Web的b 和 log（日志）構成，在網絡帶寬以B/s計的年代，圖片等載入几乎不可能，
+而示以萬國碼的字符被夾在數據包中送來已綽綽有餘。各位表演傢的生活近況、文藝傢的星星點點之文，便可寄托在各家
+的服務器上，展示著一些俗或者脫俗的東西。
 
-## Quick Start
+那是萬維網（World wide web）剛成型的模樣，語言在造紙術被改進後又一次找到了新的抒展渠道，通過電話綫撥號上網，青澀的馬雲對著電視
+采訪鏡頭 談及「信息高速公路」的時代性，政府從還未被授予權力來監控互聯網上的任何……
 
-### Create a new post
+### 建此站寫博客的初衷
+時過境遷，博客被大多數人遺忘，可博客一直無法被取代。
 
-``` bash
-$ hexo new "My New Post"
-```
+文字有著不亞於演講的力量，對於具象的東西描述沒有一張圖片來的輕鬆，卻熟知文字的人才能表達抽象的脈絡，
+生活中要表達的觀點太多，不發聲的話，恐淹沒在權威者的把戲中，怕消隕於大衆的輿論裏，需説些什麽來自拔。
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+公共的平臺承載了所有人的碎片時間，我在其中的發文也就力求簡潔，配圖從來只配16：9的一張單圖。該站的建立，成爲
+一片我的私有領地，空白被填充以黑色的文字，觀點從黑色處產生，不能説的觀點藏在剩下的白色或省略號中……
 
-### Run server
+接下來我會寫的博客中，會有端起相機，啪嗒一聲留下的照片，會有生活的、旅行的記錄，會有一些計算機知識的
+自我理解的陳述，方便各位更好的學習計算機科學這門專業。在此感謝在我自學過程中遇到的所有博主帖子的幫助，
+開放的知識環境會讓計算機在科學和行業層面得以日新月異的飛速迭代，也希望我的部分分享可以淺淺有益於大家的
+自學歷程。
 
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+誠惶誠恐，令有裨益，幸甚至哉！
