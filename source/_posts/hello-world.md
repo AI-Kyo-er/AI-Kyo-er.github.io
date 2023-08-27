@@ -1,5 +1,10 @@
 ---
 title: Hello World
+categories: 
+- 雜記
+tags:
+- 繁體
+- 記述
 ---
 ## Hello world —— 本站的第一篇Blog
 ### Blog的緣起
