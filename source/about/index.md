@@ -4,7 +4,7 @@ date: 2023-08-10 00:43:59
 ---
 >一直想创建一个独属于我的在线资产(Online assets)
 
-![镇楼图](../../assets/images/1.jpg)
+![镇楼图](./index/1.jpg)
 
 所以就酱紫付诸实现了，感谢诸位浏览本站，并有兴趣点进我的About 。
 
@@ -36,7 +36,7 @@ date: 2023-08-10 00:43:59
 
 电脑开关机（这个是唯一完全掌握的）
 
-![](../../assets/images/2.jpg)
+![](./index/2.jpg)
 
 <del>数据结构及算法（Data structure and algorithm），基于QT6的图形化界面 </del>
 
@@ -57,7 +57,7 @@ date: 2023-08-10 00:43:59
 > 
 > --贾宝玉《红楼梦》
 
-![](../../assets/images/3.jpg)
+![](./index/3.jpg)
 
 可能直接上图比较有说服力
 
