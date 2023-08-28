@@ -51,7 +51,7 @@ date: 2023-08-10 00:43:59
 
 <br>
 
-<center><img src="./index/5.jpg"  width="88%"/></center>
+<center><img src="./index/5.jpg"  width="100%"/></center>
 
 
 <br>
