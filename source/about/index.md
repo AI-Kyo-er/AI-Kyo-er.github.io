@@ -2,7 +2,7 @@
 title: about
 date: 2023-08-10 00:43:59
 ---
->一直想创建一个独属于我的在线资产(Online assets)
+ <blockquote> 一直想创建一个独属于我的在线资产(Online assets) </blockquote> 
 
 ![镇楼图](./index/4.jpg)
 
