@@ -23,7 +23,7 @@ tags:
 
 ## 三、函数分析
 
-1. bitXor函数
+### bitXor函数
 
 **函数要求：**
 
@@ -47,7 +47,7 @@ int bitNor(int x, int y) {
 }
 ```
 
-2. copyLSB函数
+### copyLSB函数
 
 **函数要求：**
 
@@ -68,7 +68,7 @@ int copyLSB(int x) {
 }
 ```
 
-3. isEqual函数
+### isEqual函数
 
 **函数要求：**
 
@@ -89,7 +89,7 @@ int isEqual(int x, int y) {
 }
 ```
 
-4. bitMask函数
+### bitMask函数
 
 **函数要求：**
 
@@ -110,7 +110,7 @@ int isEqual(int x, int y) {
   return (all_1 << lowbit) & (all_1 + (1 << highbit << 1));
 ```
 
-5. bitMask函数
+### bitMask函数
 
 **函数要求：**
 
@@ -153,7 +153,7 @@ int isEqual(int x, int y) {
   return x;
 ```
 
-6. bitMask函数
+### bitMask函数
 
 **函数要求：**
 
@@ -174,7 +174,7 @@ int isEqual(int x, int y) {
   }
 ```
 
-7. isNonNegative函数
+### isNonNegative函数
 
 **函数要求：**
 
@@ -195,7 +195,7 @@ int isEqual(int x, int y) {
   }
 ```
 
-8. addOK函数
+### addOK函数
 
 **函数要求：**
 
@@ -219,7 +219,7 @@ int isEqual(int x, int y) {
   }
 ```
 
-9. rempwr2函数
+### rempwr2函数
 
 **函数要求：**
 
@@ -244,7 +244,7 @@ int isEqual(int x, int y) {
     return ans & (all_1 + (!(ans + (1 << n))));
   }
 ```
-10. isLess函数
+### isLess函数
 
 **函数要求：**
 
@@ -267,7 +267,7 @@ int isEqual(int x, int y) {
   }
 ```
 
-10. absVal函数
+### absVal函数
 
 **函数要求：**
 
@@ -289,7 +289,7 @@ int isEqual(int x, int y) {
   }
 ```
 
-11. isPower2函数
+### isPower2函数
 
 **函数要求：**
 
@@ -312,7 +312,7 @@ int isEqual(int x, int y) {
   }
 ```
 
-12. float_neg函数
+### float_neg函数
 
 **函数要求：**
 
@@ -335,7 +335,7 @@ int isEqual(int x, int y) {
   }
 ```
 
-13. float_half函数
+### float_half函数
 
 **函数要求：**
 
@@ -373,7 +373,7 @@ int isEqual(int x, int y) {
   }
 ```
 
-14. float_i2f函数
+### float_i2f函数
 
 **函数要求：**
 
