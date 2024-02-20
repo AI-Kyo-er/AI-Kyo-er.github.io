@@ -5,6 +5,7 @@ categories:
 tags:
 - 繁體
 - 記述
+date: 2023-07-28
 ---
 ## Hello world —— 本站的第一篇Blog
 ### Blog的緣起
