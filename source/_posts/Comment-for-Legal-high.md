@@ -10,9 +10,10 @@ tags:
 终于看完Legal High，一部豆瓣评分9.4的日剧，有些思绪，虽然大部分时间都在欣赏年轻时「新垣结衣」的颜了。
 <br>
 
-<center><img src="./Comment-for-Legal-high/1.png"  width="80%"/></center>
+<center><img src="./Comment-for-Legal-high/1.png"  width="65%"/></center>
 
 <br>
+
 ### 画面
 由于比较古早，本剧摄于2012年，即12年前，新垣结衣尚还年轻，还在争论
 终于得到女主的戏份，仿佛只能当一个花瓶，之后这部片子的第二部也使新垣结衣最终也荣获2014年的第79届日剧学院赏最佳女配角奖。
@@ -33,7 +34,7 @@ tags:
 现实中留给我们的正义思来想去，去伪存真，又有多少是真正的正义。法庭宣判即为正义，虽有亵渎正义之嫌，实则是感性意义上的正义已经不适于基于理性的法治体系，不是古美门或gakki任何一方有错，而是程式化的正义压缩了为人上限和下限之间的距离，这两条线最终向法律底线看齐，无可厚非。
 <br>
 
-<center><img src="./Comment-for-Legal-high/2.png"  width="80%"/></center>
+<center><img src="./Comment-for-Legal-high/2.png"  width="65%"/></center>
 
 <br>
 ### 新垣结衣（gakki）赛高
