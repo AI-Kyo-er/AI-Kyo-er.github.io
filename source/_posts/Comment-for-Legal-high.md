@@ -10,10 +10,9 @@ date: 2024-02-21
 ## Legal High (勝利級正義) 超赞
 终于看完Legal High，一部豆瓣评分9.4的日剧，有些思绪，虽然大部分时间都在欣赏年轻时「新垣结衣」的颜了。
 <br>
-
+<br>
 <center><img src="./Comment-for-Legal-high/1.png"  width="65%"/></center>
 
-<br>
 
 ### 画面
 由于比较古早，本剧摄于2012年，即12年前，新垣结衣尚还年轻，还在争论
