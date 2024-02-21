@@ -1,5 +1,5 @@
 ---
-title: Legal High (勝利級正義) 影评
+title: Legal High (勝利即正義) 影评
 categories: 
 - 影评
 tags:
@@ -7,7 +7,7 @@ tags:
 - 影评
 date: 2024-02-21
 ---
-## Legal High (勝利級正義) 超赞
+## Legal High (勝利即正義) 超赞
 终于看完Legal High，一部豆瓣评分9.4的日剧，有些思绪，虽然大部分时间都在欣赏年轻时「新垣结衣」的颜了。
 <br>
 <br>
