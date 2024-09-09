@@ -39,7 +39,7 @@ date: 2023-08-10 00:43:59
 <br>
 
 
-武汉大学大二学生
+武汉大学大三学生
 
 专业计算机科学（Computer Sience）
 
@@ -95,7 +95,7 @@ date: 2023-08-10 00:43:59
 <br>
 
 
-E-mail：worldsieni@protonmail.com
+E-mail：Sieni.W@gmail.com or 2022300004034@whu.edu.cn
 
 QQ:2498974359 （欢迎来交朋友）
 
