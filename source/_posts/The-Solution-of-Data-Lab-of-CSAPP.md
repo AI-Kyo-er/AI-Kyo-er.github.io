@@ -5,6 +5,8 @@ categories:
 tags:
 - 计算机系统基础
 date: 2023-10-11
+math: true
+comments: true
 ---
 ## 一、实验内容
 
@@ -36,7 +38,9 @@ date: 2023-10-11
 
 由德摩根律：
 
-$$\sim (x \mid y) = (\sim x) \& (\sim y)$$
+$$
+\neg (P \land Q) \equiv (\neg P) \lor (\neg Q)
+$$
 
 **函数实现：**
 
