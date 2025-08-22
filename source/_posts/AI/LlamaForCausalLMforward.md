@@ -1,9 +1,7 @@
 ---
 title: LlamaForCausalLM.forward 被多繼承包裝，要重載庫函數來計算 流式指標?!
-categories: 
-- AI
+categories: [CS, AI]
 tags:
-- 简体
 - AI
 date: 2025-08-22
 ---

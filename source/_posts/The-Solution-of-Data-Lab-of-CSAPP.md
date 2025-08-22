@@ -1,7 +1,6 @@
 ---
 title: The Solution of Data Lab of CSAPP
-categories: 
-- CS 
+categories: [CS, others]
 tags:
 - 计算机系统基础
 date: 2023-10-11
