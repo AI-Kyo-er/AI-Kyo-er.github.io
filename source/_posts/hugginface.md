@@ -1,5 +1,5 @@
 ---
-title: 欸？うそ？ huggingface-cli： command note found?
+title: "欸？うそ？ huggingface-cli: command note found?"
 categories: [CS, AI]
 tags:
 - AI
