@@ -81,14 +81,10 @@ SOURCE_DIR="/media/sieni/Extra_Data/pivot_backup/Photos-ONP10P/2025.12.25/DCIM/C
 TARGET_DIR="/sdcard/DCIM/Camera"
 OUTPUT_TXT="/media/sieni/Extra_Data/pivot_backup/aPhotos-ONP10P/2025.12.25/missing_files.txt"
 
-# 获取手机端已有的文件列表 (去掉回车符 \r)
-echo "正在获取手机文件列表..."
 adb shell ls "$TARGET_DIR" | tr -d '\r' | sort > /tmp/target_files.txt
 
-# 获取本地文件列表
 ls "$SOURCE_DIR" | sort > /tmp/source_files.txt
 
-# 对比差异
 comm -23 /tmp/source_files.txt /tmp/target_files.txt > "$OUTPUT_TXT"
 
 TOTAL_FILES=$(wc -l < "$OUTPUT_TXT")
@@ -106,7 +102,6 @@ while read -r filename; do
 
 done < "$OUTPUT_TXT"
 
-# 通知 Android 扫描新文件
 adb shell am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d "file://$TARGET_DIR"
 
 echo "Finished."
