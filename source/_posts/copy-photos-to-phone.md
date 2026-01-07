@@ -66,3 +66,50 @@ echo "Finished copying missing files."
 <center><img src="./copy-photos-to-phone/1.png"  width="75%"/></center>
 
 传输要个半个小时，于是就有了这篇博客，分享经验，留住感动。
+
+## 还有后续？时间戳有的不对！
+传输完成后，为什么 Today 时间下一大堆图片和视频？ 除了本机自带相机拍摄的照片，即元数据中明确写入拍摄时间的。
+
+想要用 `rsync` 命令同步时间戳，但是被拒绝。
+
+对了，我不是 Android 吗，为什么不用 Google 提供的底层通讯 `adb` 呢？毕竟我们一直在通讯的 `gvfs-gphoto2` 是一个不稳定的中间层。
+
+```
+#!/bin/bash
+
+SOURCE_DIR="/media/sieni/Extra_Data/pivot_backup/Photos-ONP10P/2025.12.25/DCIM/Camera"
+TARGET_DIR="/sdcard/DCIM/Camera"
+OUTPUT_TXT="/media/sieni/Extra_Data/pivot_backup/aPhotos-ONP10P/2025.12.25/missing_files.txt"
+
+# 获取手机端已有的文件列表 (去掉回车符 \r)
+echo "正在获取手机文件列表..."
+adb shell ls "$TARGET_DIR" | tr -d '\r' | sort > /tmp/target_files.txt
+
+# 获取本地文件列表
+ls "$SOURCE_DIR" | sort > /tmp/source_files.txt
+
+# 对比差异
+comm -23 /tmp/source_files.txt /tmp/target_files.txt > "$OUTPUT_TXT"
+
+TOTAL_FILES=$(wc -l < "$OUTPUT_TXT")
+CURRENT=0
+
+echo "Total files to copy via ADB: $TOTAL_FILES"
+
+while read -r filename; do
+    [ -z "$filename" ] && continue
+    CURRENT=$((CURRENT + 1))
+    PERCENT=$((CURRENT * 100 / TOTAL_FILES))
+
+    echo "[$CURRENT/$TOTAL_FILES] ($PERCENT%) Pushing: $filename"
+    adb push "$SOURCE_DIR/$filename" "$TARGET_DIR/"
+
+done < "$OUTPUT_TXT"
+
+# 通知 Android 扫描新文件
+adb shell am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d "file://$TARGET_DIR"
+
+echo "Finished."
+```
+
+瞬间传完，并且一点问题都没有，彻底解决，对了，弄完这一套才想起来是不是用市面上的手机助手会更方便呢？
