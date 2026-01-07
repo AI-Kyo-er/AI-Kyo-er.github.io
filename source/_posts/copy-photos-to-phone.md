@@ -63,4 +63,4 @@ echo "Finished copying missing files."
 
 成功了，完美将手机存储上的负担降到最轻，一次 `ls` 就弄清缺少的文件，接下来都是单线程逐个 `cp`.
 
-<center><img src="./cocopy-photos-to-phone/1.png"  width="65%"/></center>
+<center><img src="./copy-photos-to-phone/1.png"  width="65%"/></center>
