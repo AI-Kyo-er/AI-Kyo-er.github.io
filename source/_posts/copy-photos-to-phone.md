@@ -1,5 +1,5 @@
 ---
-title: 从备份磁盘向手机中恢复照片，但速度太慢或卡死
+title: 从备份磁碟向手机中恢复照片，但速度太慢或卡死
 categories: [CS, linux]
 tags:
 - Linux
@@ -63,4 +63,4 @@ echo "Finished copying missing files."
 
 成功了，完美将手机存储上的负担降到最轻，一次 `ls` 就弄清缺少的文件，接下来都是单线程逐个 `cp`.
 
-<center><img src="./copy-photos-to-phone/1.png"  width="65%"/></center>
+<center><img src="./copy-photos-to-phone/1.png"  width="75%"/></center>
