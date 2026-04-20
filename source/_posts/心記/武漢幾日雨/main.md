@@ -13,4 +13,4 @@ date: 2026-04-20
 
 ​琢磨數日，仍回味不盡其甘美、其寂寥
 
-<center><img src="./1.png"  width="85%"/></center>
+<center><img src="./1.jpg"  width="85%"/></center>
